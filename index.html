@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="calculator-screen" value="" disabled />
+         <button type="button" class="advanced-function">Advanced</button> 
+        <div class="calculator-keys">
+            <button onclick="handleNumber(event)" type="button" class="btn" value="7">7</button>
+            <button onclick="handleNumber(event)" type="button" class="btn" value="8">8</button>
+            <button onclick="handleNumber(event)" type="button" class="btn" value="9">9</button>
+            <button type="button" class="operator" value="+">+</button>
+
+
+            <button onclick="handleNumber(event)" type="button" class="btn" value="4">4</button>
+            <button onclick="handleNumber(event)" type="button" class="btn" value="5">5</button>
+            <button onclick="handleNumber(event)" type="button" class="btn" value="6">6</button>
+            <button type="button" class="operator" value="-">-</button>
+
+            <button onclick="handleNumber(event)" type="button" class="btn" value="1">1</button>
+            <button onclick="handleNumber(event)" type="button" class="btn" value="2">2</button>
+            <button onclick="handleNumber(event)" type="button" class="btn" value="3">3</button>
+            <button type="button" class="operator" value="*">&times;</button>
+
+
+            <button onclick="handleNumber(event)" type="button" class="btn" value="0">0</button>
+            <button type="button" class="decimal" value=".">.</button>
+            <button type="button" class="operator" value="/">&divide;</button>
+
+            <button type="button" class="all-clear" value="all-clear">AC</button>
+
+            <button type="button" class="equal-sign " value="=">=</button>
+            <button type="button" class="clear-sign" value="clear">Clear</button>
+        </div><br><br>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
